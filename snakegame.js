@@ -33,7 +33,7 @@ let speed = 15;
 let foodCol = ["red", "black", "green"][Math.floor(Math.random() * 3)];
 let foodShape = Math.random() > 0.5 ? "circle" : "square";
 
-let direction = "UP";
+let direction = "";
 let segment = [];
 
 function Reset() {
